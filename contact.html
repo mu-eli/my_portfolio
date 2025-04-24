@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="favicon/mstile-70x70.svg" />
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon-180x180.svg" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Zetta:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita+Swashed:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="img/LOGO-ELIUDMUWOWO.svg"
+            alt="logo image of Eliud's portfolio"
+        /></a>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav--list">
+          <li><a href="index.html" class="main-nav--link">Home</a></li>
+          <li><a href="about.html" class="main-nav--link">About</a></li>
+          <li><a href="cases.html" class="main-nav--link">Cases</a></li>
+          <li><a href="contact.html" class="main-nav--link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="socials">
+        <a
+          href="https://www.linkedin.com/in/eliud-muwowo-154180bb/"
+          target="_blank"
+          ><ion-icon name="logo-linkedin" class="social-icons"></ion-icon
+        ></a>
+        <a href="https://github.com/mu-eli" target="_blank"
+          ><ion-icon name="logo-github" class="social-icons"></ion-icon
+        ></a>
+      </div>
+    </header>
+
+    <section class="contact-section container">
+      <div>
+        <div class="ring-img">
+          <img
+            src="img/hero.png"
+            alt="portfolio owner's image"
+            class="contact-img"
+          />
+        </div>
+
+        <div class="arrow">
+          <ion-icon
+            name="arrow-forward-outline"
+            class="contact-arrow"
+          ></ion-icon>
+        </div>
+
+        <a
+          href="mailto:eliudmuwowo@gmail.com"
+          aria-label="Email Eliud Muwowo"
+          class="email-text"
+          >eliudmuwowo@gmail.com</a
+        >
+        <p class="contact-text">follow me</p>
+        <a
+          href="https://www.linkedin.com/in/eliud-muwowo-154180bb/"
+          target="_blank"
+          class="social-texts"
+          >linkedin</a
+        >
+        <a href="https://github.com/mu-eli" target="_blank" class="social-texts"
+          >github</a
+        >
+      </div>
+
+      <div class="contact-form">
+        <p class="form-heading">let's work together.</p>
+
+        <form id="contactForm">
+          <div>
+            <label for="full-name">your name</label>
+            <input
+              id="full-name"
+              placeholder="Eliud Muwowo"
+              name="name"
+              type="text"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email">your email </label>
+            <input
+              id="email"
+              placeholder="eliudmuwowo@example.com"
+              name="email"
+              type="email"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="service">what service are you looking for</label>
+            <input
+              id="service"
+              placeholder="Web development, front-end coding"
+              name="service"
+              type="text"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="message">your message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Hello, I need help with ..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-contact">send</button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

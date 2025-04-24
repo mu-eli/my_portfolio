@@ -1,0 +1,750 @@
+/************************************/
+/* ABOVE 1424px (Large Desktops) */
+/************************************/
+
+@media (max-width: 110em) {
+  .container {
+    max-width: 100%;
+  }
+
+  .header {
+    padding: 1.6rem 14.76rem 1.6rem 13.5rem;
+  }
+
+  .hero-section {
+    padding: 4rem 14.8rem 7.2rem;
+  }
+
+  .about-img {
+    height: 39.6rem;
+  }
+
+  .top-left {
+    width: 33.4rem;
+    left: 15.2rem;
+    top: 16rem;
+  }
+
+  .work-grid {
+    margin: 0;
+  }
+
+  .work-section,
+  .experience-section {
+    padding: 12rem 14.8rem;
+  }
+
+  .heading {
+    padding: 8.8rem 26.4rem 12.4rem 26.4rem;
+  }
+
+  .project-section {
+    grid-template-columns: repeat(auto-fill, minmax(33.2rem, max-content));
+  }
+
+  .contact-section {
+    padding: 8rem 26.4rem 28rem;
+  }
+}
+
+/************************************/
+/* BELOW 1424px (Smaller Desktops) */
+/************************************/
+
+@media (max-width: 89em) {
+  .header {
+    padding: 1.6rem 0;
+  }
+
+  .hero-section {
+    padding: 4rem 0;
+  }
+
+  .top-left {
+    left: 11.4rem;
+    top: 16.8rem;
+  }
+
+  .hero-name {
+    padding: 2.4rem 0 1.6rem;
+  }
+
+  .hero-title {
+    padding: 0 0 3.2rem;
+  }
+
+  .work-section {
+    padding: 6.4rem 11.3rem;
+  }
+
+  .work-text {
+    padding: 0 0 2.4rem;
+  }
+
+  .work-title {
+    font-size: 2rem;
+  }
+
+  .work-grid {
+    padding: 2.4rem 0;
+    margin: 0;
+  }
+
+  .experience-section {
+    padding: 6.4rem 11.3rem 8.8rem;
+  }
+
+  .subheading {
+    padding: 0 0 4rem;
+  }
+
+  .experience-box {
+    padding: 3.2rem 0;
+  }
+
+  .experience-heading,
+  .experience-location,
+  .experience-service,
+  .experience-industry {
+    font-size: 1.2rem;
+  }
+
+  .experience-company {
+    font-size: 1.8rem;
+  }
+
+  .experience-details {
+    font-size: 1.4rem;
+  }
+
+  .btn-resume {
+    margin: 5.6rem 0 0;
+  }
+
+  .heading {
+    padding: 8.8rem 11.3rem 12.4rem;
+  }
+  .project-section {
+    grid-template-columns: repeat(auto-fill, minmax(30.9rem, max-content));
+    justify-content: center;
+    row-gap: 4rem;
+    padding: 3.2rem 1.6rem;
+  }
+
+  .contact-section {
+    column-gap: 7rem;
+    padding: 8rem 11.8rem;
+  }
+
+  .social-texts {
+    padding: 0.8rem 0 2.4rem;
+  }
+}
+
+/************************************/
+/* BELOW 1025px (Tablet Landscape) */
+/************************************/
+
+@media (max-width: 64em) {
+  .header {
+    flex-direction: column;
+    height: 16.4rem;
+    gap: 1.2rem;
+    padding: 0 0 3.2rem;
+  }
+
+  .main-nav--list {
+    gap: 4.8rem;
+  }
+
+  .main-nav--link {
+    font-size: 1.6rem;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .hero-section {
+    padding: 5.6rem 1.6rem 9.4rem;
+  }
+
+  .hero-img {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .hero-name {
+    padding: 4rem 0 1.6rem;
+  }
+
+  .hero-text {
+    font-size: 4.8rem;
+    padding: 0 0 1.6rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+    padding: 0 0 4.4rem;
+  }
+
+  .btn-learn {
+    font-size: 2rem;
+    padding: 1.6rem 6.5rem;
+  }
+
+  .btn-talk {
+    font-size: 2rem;
+    padding: 1.6rem 7.6rem;
+  }
+
+  .about-img {
+    height: 34.8rem;
+  }
+
+  .top-left {
+    width: 23.6rem;
+    top: 22rem;
+    left: 3rem;
+  }
+
+  .work-section {
+    padding: 4rem 1.6rem;
+  }
+
+  .work-title {
+    padding: 1.2rem 0 3.2rem;
+  }
+
+  .work-text {
+    font-size: 1.8rem;
+    padding: 0 0 1.2rem;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
+    padding: 0 0 4rem;
+  }
+
+  .work-grid:nth-child(2) {
+    padding-top: 0;
+  }
+
+  .work-grid:nth-child(3) {
+    padding: 2.8rem 0 4rem;
+  }
+
+  .experience-section {
+    padding: 4rem 1.6rem;
+  }
+
+  .subheading {
+    font-size: 1.8rem;
+    padding: 1.6rem 0;
+  }
+
+  .experience-heading {
+    font-size: 1.8rem;
+  }
+
+  .experience-location,
+  .experience-service,
+  .experience-industry {
+    display: none;
+  }
+
+  .experience-box {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+    padding: 2rem 0 4rem;
+  }
+
+  .experience-box:nth-child(4) {
+    padding: 4rem 0;
+  }
+
+  .experience-company {
+    font-size: 2.8rem;
+  }
+
+  .experience-details {
+    font-size: 2rem;
+  }
+
+  .btn-resume {
+    font-size: 2rem;
+    margin: 4rem 0 0;
+  }
+
+  .links-section {
+    display: block;
+    padding: 4rem 1.6rem;
+  }
+
+  .heading {
+    padding: 4.8rem 1.6rem;
+  }
+
+  .project-section {
+    grid-template-columns: repeat(auto-fill, minmax(23.7rem, max-content));
+    padding: 2.4rem 1.6rem;
+    row-gap: 3.6rem;
+  }
+
+  .contact-section {
+    padding: 4.8rem 3.2rem;
+    column-gap: 1.2rem;
+  }
+
+  .form-heading {
+    padding: 0 0 4rem;
+  }
+
+  form input {
+    height: 3.2rem;
+  }
+}
+
+/************************************/
+/* BELOW 769px (Tablet Portrait) */
+/************************************/
+
+@media (max-width: 48em) {
+  .header {
+    gap: 1.6rem;
+    height: 15.2rem;
+  }
+
+  .main-nav--link {
+    font-size: 2rem;
+  }
+
+  .main-nav--list {
+    gap: 4rem;
+  }
+
+  .hero-section {
+    padding: 0 1.6rem;
+  }
+
+  .hero-img {
+    width: 12.7rem;
+    height: 12.7rem;
+  }
+
+  .hero-name {
+    font-size: 2.8rem;
+    padding: 3.2rem 0 0.8rem;
+  }
+
+  .hero-title {
+    font-size: 1.6rem;
+    padding: 0 0 3.2rem;
+  }
+
+  .hero-text {
+    font-size: 3.6rem;
+    padding: 0 0 2rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+    padding: 0 0 4rem;
+  }
+
+  .hero-btn {
+    flex-direction: column;
+  }
+
+  .btn-learn,
+  .btn-talk {
+    padding: 1.6rem 16.8rem;
+  }
+
+  .about-img {
+    height: 26.4rem;
+  }
+
+  .about-icon {
+    font-size: 2.8rem;
+  }
+
+  .top-left {
+    width: 21.7rem;
+    top: 22rem;
+    left: 1.6rem;
+  }
+
+  .about-text {
+    font-size: 1.8rem;
+  }
+
+  .work-text {
+    font-size: 1.6rem;
+  }
+
+  .work-grid {
+    padding: 2.4rem 0;
+  }
+
+  .work-title {
+    font-size: 2.4rem;
+    padding: 0 0 1.2rem;
+    line-height: 1.6;
+  }
+
+  .subheading {
+    font-size: 1.6rem;
+    padding: 0 0 1.2rem;
+  }
+
+  .experience-heading {
+    padding: 0;
+  }
+
+  .experience-company {
+    font-size: 2.4rem;
+  }
+
+  .experience-details {
+    font-size: 1.6rem;
+  }
+
+  .btn-resume {
+    margin: 3.2rem 0 0;
+  }
+
+  .links-heading {
+    font-size: 1.6rem;
+  }
+
+  .links-social {
+    font-size: 2rem;
+    padding: 2.4rem 0;
+  }
+
+  .heading {
+    padding: 3.2rem 1.6rem;
+  }
+
+  .welcome-text {
+    font-size: 2.8rem;
+    padding: 0;
+  }
+
+  .welcome-subtext {
+    font-size: 1.6rem;
+    padding: 1.2rem 0 0;
+  }
+
+  .project-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 2.4rem 1.6rem;
+    row-gap: 3.6rem;
+  }
+
+  .project-arrow {
+    font-size: 2rem;
+    display: block;
+  }
+
+  .project-name {
+    font-size: 1.4rem;
+  }
+
+  .project-year,
+  .project-description {
+    font-size: 1rem;
+  }
+
+  .contact-section {
+    grid-template-columns: 1fr;
+    padding: 1.8rem 1.6rem 4.8rem;
+    row-gap: 4.8rem;
+  }
+
+  .contact-img {
+    width: 12.8rem;
+    height: 12.8rem;
+  }
+
+  .contact-arrow {
+    font-size: 2.8rem;
+  }
+
+  .arrow {
+    padding: 2.4rem 0;
+  }
+
+  .email-text {
+    font-size: 2.8rem;
+    padding: 0 0 4.8rem;
+  }
+
+  .contact-text {
+    font-size: 1.6rem;
+    padding: 0.8rem 0 2.4rem;
+  }
+
+  .social-texts {
+    padding: 0.8rem 0 2.4rem;
+  }
+
+  .contact-form {
+    padding: 4rem 0;
+  }
+
+  .form-heading {
+    padding: 0 0 2.4rem;
+  }
+
+  form input {
+    height: 4.8rem;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    margin: 0 0 2.8rem;
+  }
+
+  form label {
+    font-size: 1.6rem;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+  }
+
+  .btn-contact {
+    font-size: 2rem;
+    padding: 1.2rem 20.5rem;
+  }
+}
+
+/************************************/
+/* BELOW 481px (Mobile Phones) */
+/************************************/
+
+@media (max-width: 30em) {
+  .header {
+    gap: 0.8rem;
+    height: 12.4rem;
+    padding: 0 0 3.2rem;
+  }
+
+  .main-nav--list {
+    gap: 3.8rem;
+  }
+
+  .main-nav--link {
+    font-size: 1.4rem;
+  }
+
+  .logo img {
+    width: 11.7rem;
+    height: 6rem;
+  }
+
+  .hero-img {
+    width: 9.8rem;
+    height: 9.8rem;
+  }
+
+  .hero-name {
+    font-size: 2.4rem;
+    padding: 2.4rem 0 1.2rem;
+  }
+
+  .hero-title {
+    font-size: 1.2rem;
+    padding: 0 0 2.4rem;
+  }
+
+  .hero-text {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    padding: 0 0 1.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.2rem;
+    padding: 0 0 3.2rem;
+  }
+
+  .hero-btn {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  .btn-talk {
+    font-size: 1.4rem;
+    padding: 1.2rem 3.7rem;
+  }
+
+  .btn-learn {
+    font-size: 1.4rem;
+    padding: 1.2rem 3rem;
+  }
+
+  .top-left {
+    width: 13.7rem;
+    top: 16rem;
+    left: 1.6rem;
+  }
+
+  .about-text {
+    font-size: 1.4rem;
+  }
+
+  .about-img {
+    height: 21rem;
+  }
+
+  .btn-resume {
+    font-size: 1.4rem;
+  }
+
+  .work-section {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .work-grid {
+    padding: 2rem 0;
+  }
+
+  .work-text {
+    font-size: 1.2rem;
+  }
+
+  .work-title {
+    font-size: 2rem;
+    padding: 0 0 0.8rem;
+  }
+
+  .work-description {
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+
+  .experience-section {
+    padding: 2.8rem 1.6rem;
+  }
+
+  .experience-box {
+    padding: 2rem 0;
+  }
+
+  .experience-box:nth-child(2) {
+    padding: 0;
+  }
+
+  .subheading {
+    font-size: 1.2rem;
+    padding: 0 0 1.6rem;
+  }
+
+  .experience-heading {
+    font-size: 1.2rem;
+  }
+
+  .experience-company {
+    font-size: 2rem;
+  }
+
+  .experience-details {
+    font-size: 1.2rem;
+  }
+
+  .btn-resume {
+    margin: 4rem 0 0;
+  }
+
+  .links-section {
+    padding: 2.4rem 1.6rem;
+  }
+
+  .links-heading {
+    font-size: 1.2rem;
+  }
+
+  .links-social {
+    font-size: 1.6rem;
+    padding: 1.2rem 0;
+  }
+
+  .welcome-text {
+    font-size: 2rem;
+    padding: 0 1.6rem 1.2rem;
+  }
+
+  .welcome-subtext {
+    font-size: 1.2rem;
+    padding: 0 1.6rem 4rem;
+  }
+
+  .project-section {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 2.4rem 1.6rem 0;
+  }
+
+  .project-name {
+    font-size: 1.6rem;
+  }
+
+  .project-description,
+  .project-year {
+    font-size: 1.2rem;
+  }
+
+  .contact-section {
+    padding: 3.2rem 1.6rem;
+    row-gap: 4rem;
+  }
+
+  .contact-img {
+    width: 9.8rem;
+    height: 9.8rem;
+  }
+
+  .contact-form {
+    padding: 0;
+  }
+
+  .social-texts,
+  .email-text {
+    font-size: 1.6rem;
+  }
+
+  .email-text {
+    padding: 0 0 2.4rem;
+  }
+
+  .contact-text {
+    font-size: 1.2rem;
+  }
+
+  .form-heading {
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 0 0 2.4rem;
+  }
+
+  form label {
+    font-size: 1.2rem;
+  }
+
+  form input {
+    margin: 0 0 1.6rem;
+    height: 3.2rem;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+  }
+
+  form textarea {
+    margin: 0 0 2.4rem;
+  }
+
+  .btn-contact {
+    font-size: 1.4rem;
+    padding: 1.2rem 12.5rem;
+  }
+}
